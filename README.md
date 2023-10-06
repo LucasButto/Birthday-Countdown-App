@@ -42,6 +42,7 @@ This is a simple web application that displays the countdown to the next birthda
     "bornYear": 1985
   }
 ]
+```
 
 ## Features
 If you would like to contribute to this project, please open an issue or submit a pull request.
