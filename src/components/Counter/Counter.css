@@ -1,0 +1,116 @@
+@font-face {
+  font-family: digital;
+  src: url("../../public/digital-7.ttf");
+}
+
+.counter {
+  text-align: center;
+  background-color: #d1d1d1;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 5.5rem;
+  color: #5e1313;
+}
+
+.name {
+  font-size: 3rem;
+  color: #aa3333;
+}
+
+.date {
+  font-size: 3rem;
+  color: #121212;
+}
+
+.timer {
+  font-size: 8rem;
+  font-family: digital;
+  color: #121212;
+}
+
+.format {
+  font-size: 4rem;
+  color: #121212;
+}
+
+.bd-text {
+  display: inline-block;
+  font-size: 8rem;
+  color: #5e1313;
+  animation: bounceLetter 1s linear infinite;
+}
+
+@keyframes bounceLetter {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.celebration-text {
+  font-size: 6rem;
+  color: #aa3333;
+  animation: bounceLetter 1s linear infinite;
+}
+
+@media (768px <= width < 1024px) {
+  .title {
+    font-size: 4rem;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .date {
+    font-size: 2rem;
+  }
+  .timer {
+    font-size: 6rem;
+  }
+  .format {
+    font-size: 3rem;
+  }
+}
+
+@media (width < 768px) {
+  .title {
+    font-size: 3rem;
+  }
+  .name {
+    font-size: 2.5rem;
+  }
+  .date {
+    font-size: 2rem;
+  }
+  .timer {
+    font-size: 5rem;
+  }
+  .format {
+    font-size: 2rem;
+  }
+}
+
+@media (width < 530px) {
+  .title {
+    font-size: 2rem;
+  }
+  .name {
+    font-size: 1.5rem;
+  }
+  .date {
+    font-size: 1.5rem;
+  }
+  .timer {
+    font-size: 3rem;
+  }
+  .format {
+    font-size: 1.5rem;
+  }
+}
