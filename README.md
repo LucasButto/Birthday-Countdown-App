@@ -27,9 +27,9 @@ This is a simple web application that displays the countdown to the next birthda
 
 ## Configuration
 
-- Add your friends' birthdays in the `birthdays.json` file in the following format:
+- Add your friends' birthdays in `Constants.js` file in the following format:
 
-```json
+```
 [
   {
     "name": "John Doe",
